@@ -15,7 +15,7 @@ function SmoothScrolling({ children }: { children: React.ReactNode }) {
       elements.forEach((element) => {
         // blurness 
         gsap.from(element, {
-          opacity: 0.6,
+          opacity: 0.3,
           y: 50,
           duration: 1.5,
           ease: "power3.out",
