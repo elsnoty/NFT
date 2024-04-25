@@ -30,7 +30,7 @@ function SmoothScrolling({ children }: { children: React.ReactNode }) {
         gsap.to(element, {
           opacity: 1,
           y: 0, 
-          duration: 1, //to do smoth after gsap effect
+          duration: 1.5, //to do smoth after gsap effect
           delay: 2, // delay for gsap blurness
           ease: "power3.out",
         });
