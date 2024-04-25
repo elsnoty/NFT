@@ -1,0 +1,19 @@
+.btn-hero{
+    @apply rounded-bl-[600px] rounded-t-[600px] rounded-br-[260rem] my-5 hover:scale-90 cursor-pointer
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  .btns{
+    @apply transition-transform hover:scale-95
+  }
